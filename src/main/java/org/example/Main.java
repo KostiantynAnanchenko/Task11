@@ -34,7 +34,7 @@ public class Main {
 
         Stream<Long> randomStream = RandomGenerator.generateRandomStream(a, c, m);
 
-        randomStream.limit(5).forEach(number -> System.out.println(number));
+        randomStream.limit(5).forEach(System.out::println);
 
 
         System.out.println("\nTask 11.5 TEST");                 // Task 11.5 TEST
@@ -42,7 +42,7 @@ public class Main {
         Stream<Integer> stream1 = Stream.of(1, 2, 3, 4);
         Stream<Integer> stream2 = Stream.of(5, 6, 7, 8, 9);
 
-        Stream<Integer> zippedStream = StreamMixer.zip(stream1, stream2);
+        Stream<Integer> zippedStream = StreamZipper.zip(stream1, stream2);
         zippedStream.forEach(System.out::println);
 
 

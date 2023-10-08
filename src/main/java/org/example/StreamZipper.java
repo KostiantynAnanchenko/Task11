@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.stream.Stream;
 
 
-public class StreamMixer {
+public class StreamZipper {
     public static <T> Stream<T> zip(Stream<T> first, Stream<T> second) {
         Iterator<T> iterator1 = first.iterator();
         Iterator<T> iterator2 = second.iterator();
