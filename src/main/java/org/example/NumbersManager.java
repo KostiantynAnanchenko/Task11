@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class NumbersManager {
-    public static void getSortedNumbers(String[] array) {         //Task 11.3 method
+    public static void SortNumbers(String[] array) {         //Task 11.3 method
         List<Integer> numbers = new ArrayList<>();
         for (String str : array) {
             String[] strNumbers = str.split(", ");

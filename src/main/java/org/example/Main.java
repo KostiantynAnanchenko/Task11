@@ -15,14 +15,14 @@ public class Main {
 
 
         System.out.println("\nTask 11.2 TEST");                       // Task 11.2 TEST
-        System.out.println(NamesManager.getSortedNames(names));
+        System.out.println(NamesManager.SortNames(names));
 
 
         System.out.println("\nTask 11.3 TEST");                       // Task 11.3 TEST
 
         String[] numbers = {"1, 2, 0", "4, 5"};
 
-        NumbersManager.getSortedNumbers(numbers);
+        NumbersManager.SortNumbers(numbers);
 
 
         System.out.println("\nTask 11.4 TEST");                       // Task 11.4 TEST

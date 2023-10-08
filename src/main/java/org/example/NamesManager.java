@@ -14,7 +14,7 @@ public class NamesManager {
                 .collect(Collectors.joining(", ")) + ".";
     }
 
-    public static String getSortedNames(List<String> names) {              //Task 11.2 method
+    public static String SortNames(List<String> names) {              //Task 11.2 method
 
         List<String> sortedNames = new ArrayList<>(names);
         Collections.sort(sortedNames);
