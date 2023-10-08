@@ -29,7 +29,7 @@ public class Main {
 
         long a = 25214903917L;
         long c = 11L;
-        long m = (1L << 48);
+        long m = (2L << 48);
 
         Stream<Long> randomStream = RandomGenerator.generateRandomStream(a, c, m);
 
