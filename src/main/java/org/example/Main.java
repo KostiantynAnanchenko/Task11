@@ -9,9 +9,6 @@ public class Main {
 
         List<String> names = List.of("Ivan", "Viktor", "Peter", "Jerry", "Rick", "Morty", "Summer", "Beth", "Stan", "Kenny");
 
-        String[] numbers = {"1, 2, 0", "4, 5"};
-
-
         System.out.println("\nTask 11.1 TEST");                     // Task 11.1 TEST
 
         System.out.println(NamesManager.oddPositionNames(names));
@@ -22,6 +19,8 @@ public class Main {
 
 
         System.out.println("\nTask 11.3 TEST");                       // Task 11.3 TEST
+
+        String[] numbers = {"1, 2, 0", "4, 5"};
 
         NumbersManager.getSortedNumbersString(numbers);
 
@@ -37,7 +36,7 @@ public class Main {
         randomStream.limit(5).forEach(System.out::println);
 
 
-        System.out.println("\nTask 11.5 TEST");                 // Task 11.5 TEST
+        System.out.println("\nTask 11.5 TEST");                      // Task 11.5 TEST
 
         Stream<Integer> stream1 = Stream.of(1, 2, 3, 4);
         Stream<Integer> stream2 = Stream.of(5, 6, 7, 8, 9);
